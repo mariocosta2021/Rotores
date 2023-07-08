@@ -110,7 +110,6 @@
                     </a>
                 </li>
 
-
                 <li class="nav-item mb-3">
                     <a class="nav-link" href="{{ route('admin.user.index') }}">
                         <i class="menu-icon typcn typcn-document-text"></i>

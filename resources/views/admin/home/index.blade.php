@@ -89,7 +89,7 @@ Minhas solicitações
 
                         <div class="ml-lg-auto" id="sales-statistics-legend"></div>
                     </div>
-                    <canvas height="300" id="myChart1" style="height:10%; width:0cm "></canvas>
+                    <canvas height="" id="myChart1" style="height:100%; width: "></canvas>
                 </div>
             </div>
         </div>

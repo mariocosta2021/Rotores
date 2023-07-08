@@ -6,19 +6,19 @@
         <div class="col-md-12 grid-margin stretch-card">
             <div class="card">
                 <div class="card-body">
-                    <h4 class="card-title mb-0">Estatistica de gasto de Combustivel</h4>
+                    <h4 class="card-title mb-0">Estatística de gasto de Combustível</h4>
                     <div class="d-flex flex-column flex-lg-row">
 
                     </div>
 
-                    <div class="card-options" align="left">
-                        <h6 align="right"> Total Parcial: {!! number_format($valorPago, 2, ',', '.') . ' ' . 'KZ' !!} </h6>
+                    <div class="card-options" >
+                        <h6 > Total Parcial: {!! number_format($valorPago, 2, ',', '.') . ' ' . 'KZ' !!} </h6>
                     </div>
                     <div class="d-flex flex-column flex-lg-row">
 
                         <div class="ml-lg-auto" id="sales-statistics-legend"></div>
                     </div>
-                    <canvas height="300" id="myChart1" style="height:10%; width:0cm "></canvas>
+                    <canvas height="" width="" id="myChart1" style="height:100%; width: "></canvas>
                 </div>
             </div>
         </div>

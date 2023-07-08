@@ -84,7 +84,7 @@
                                         <p class="text-dark">
                                             <b>Imagem da Viatura</b><br>
 
-                                            <small> <a target="_blank"  href="/storage/{{ $atribucoesViatura->viaturas->imagem_viatura }}">Anexo</a> </small>
+                                            <small> <a target="_blank"  href="/storage/{{ $atribucoesViatura->viaturas->imagem_viatura }}">Vizualizar Viatura</a> </small>
 
 
                                         </p>
@@ -168,7 +168,8 @@
                                             <b>
 
                                                 Anexo de Pagamento</b><br>
-                                            <small> <a target="_blank" href="/storage/{{  $atribucoesViatura->anexo}}">anexo</a></small>
+                                            <small class="d-none"> <a target="_blank" href="/storage/{{  $atribucoesViatura->anexo}}">Baixar Comprovativa</a></small> <br>
+                                            <small> <a target="_blank" href="{{asset('comprovativo_20230706_182136_4102414722_signed.pdf')}}">Baixar Comprovativa</a></small>
                                         </p>
                                     </div>
                                     <div class="col-md-3">
